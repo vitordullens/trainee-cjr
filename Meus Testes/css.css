@@ -1,0 +1,47 @@
+body {
+  background-color: #000000;
+  border-width: medium;
+  border-top: thick;
+  border-style: double;
+  border-color: red;
+  color: white;
+
+}
+a {
+  color: white;
+}
+body.especial {
+  background-image: url("background.jpg");
+  border:  none;
+}
+h1 {
+    font-size: 300%;
+    font-family: fantasy;
+
+}
+p {
+  font-size: 160%;
+  font-family: inherit;
+  color: #00FF00;
+}
+input {
+    border: 1;
+    border-style: groove;
+    border-color: red;
+
+}
+textarea {
+  border: 1;
+  border-style: groove;
+  border-color: red;
+}
+input.botao {
+    background: grey;
+    font-size: 200%;
+    font-family: monospace;
+}
+
+hr.style {
+  border-style: double;
+  border-color: yellow ;
+}
