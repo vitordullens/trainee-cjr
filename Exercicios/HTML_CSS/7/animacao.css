@@ -2,6 +2,7 @@
   border-radius:100%;
   width:500px;
   height:500px;
+  z-index: -1;
 }
 .circle{
     border-radius:100%;
@@ -47,31 +48,26 @@
   border-width: thick;
 }
 
-aberta{
-  margin-top: 0px;
-  margin-left: 145px;
-  background-color: red;
-  border-style: solid;
-  border-color: black;
-  width:200px;
-  height:10px;
-  border-radius: 40%;
-  position: relative;
-  border-width: thick;
-  padding-bottom: 100px;
-
-
-}
-#emoji:hover{
-
+.boca:hover{
   background-color: red;
   border-style: solid;
   border-color: black;
   width:200px;
   height:125px;
   border-radius: 40%;
-  position: relative;
+  position: absolute;
   border-width: thick;
+  z-index: 999;
+}
+.foda{
+  border-radius: 20%;
+  float: left;
+  width: 70px;
+  height: 70px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
 
 }
 #emoji:active{
@@ -83,7 +79,7 @@ aberta{
   height: 70px;
   background-color: purple;
   position: relative;
-  color: white;
+  color: black;
   font-size: 15px;
-
+  display: block;
 }
